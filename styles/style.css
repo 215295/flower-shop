@@ -114,7 +114,30 @@ main section {
    
 }
 
-/* /*signup section* */
+/*order*/
+.order-section{
+    margin: 30px 130px 0px 130px;
+    text-align: center;
+
+}
+.order-img{
+    display: flex;
+
+    justify-content: space-between;
+}
+.order-info{
+    width: 24%;
+}
+
+.order-details{
+    display: flex;
+    text-align: center;
+    padding: px;
+    margin-top: 15px;
+}
+
+
+ /*signup section*/
 .signup-section {
     
     background-color: rgb(253, 233, 237);
