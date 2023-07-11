@@ -181,7 +181,7 @@ main section {
 .subscribe-email  {
     display: flex;
    justify-content: center;
-   padding-bottom: 20px;
+   padding-bottom: 40px;
 
     border-radius: 5px;
  
@@ -197,4 +197,16 @@ textarea {
     border: 0;
     
 }
+
+/*footer*/
+.footer{
+    padding: 40px 300px;
+    margin-top: 20px;
+    text-align: center;
+    color: #FFF;
+    background-color: black;
+
+
+}
+
 
