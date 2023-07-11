@@ -9,13 +9,13 @@ body{
 
 /*header style*/
 .header {
-    background-color: rgb(171, 82, 97);
+    background-color: rgb(253, 233, 237);
     
    
 }
 
 .banner {
-    padding: 30px 30px 0px 150px;
+    padding: 30px 130px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,7 +26,7 @@ body{
 }
 
 .banner .profile-pic {
-    width: 500px;
+    width: 400px;
 }
 
 .banner-greeting {
@@ -44,10 +44,94 @@ body{
 
 .btn-primary {
     border-radius: 5px;
-    background: rgb(239, 97, 120);
+    background: rgb(236, 101, 124);
     border: 0;
     color: white;
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+
+/* main section styles */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/* about section styles */
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.feature {
+    padding: 0px 0px 0px 10px;
+    border-radius: 10px;
+    
+   
+}
+
+.feature-info-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.feature-info {
+    text-align: center;
+}
+.feature-img{
+    
+  border-radius: 100% 100% 0px 0px ;
+  width: 300px;
+
+
+}
+.feature-img img{
+    padding-top:15px ;
+    height: 250px;
+}
+.info-description{
+     text-decoration: underline;
+}
+
+/*about section*/
+.about {
+    padding: 0px 0px 0px 10px;
+    background-color: rgb(250, 235, 215);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    text-align: center;
+   
+}
+
+.feature-info-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.feature-info {
+    
+}
+.feature-img{
+    
+  border-radius: 100% 100% 0px 0px ;
+  width: 300px;
+
+
+}
+.feature-img img{
+    padding-top:15px ;
+    height: 250px;
+}
+.info-description{
+     text-decoration: underline;
 }
